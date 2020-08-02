@@ -1,0 +1,7 @@
+/events.tac.local/bin
+/events.tac.local/obj
+/events.tac.local/*.user
+packages
+/tac.utils/bin
+/tac.utils/*.user
+/tac.utils/obj
