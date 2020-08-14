@@ -532,7 +532,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2020 16:13:57</publishTime>
     </File>
     <File Include="Views/TAC/Events/FeatureRow.cshtml">
-      <publishTime>08/14/2020 10:38:05</publishTime>
+      <publishTime>08/14/2020 16:33:17</publishTime>
     </File>
     <File Include="Views/TAC/Events/HomeContent.cshtml">
       <publishTime>08/14/2020 09:06:50</publishTime>
