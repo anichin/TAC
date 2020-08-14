@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="row">
+    <div class="col-sm-4">
+        @Html.Sitecore().DynamicPlaceholder("feature-left")
+    </div>
+    <div class="col-sm-4">
+        @Html.Sitecore().DynamicPlaceholder("feature-middle")
+    </div>
+    <div class="col-sm-4">
+        @Html.Sitecore().DynamicPlaceholder("feature-right")
+    </div>
+</div>

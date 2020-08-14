@@ -259,6 +259,8 @@
     <Content Include="Views\TAC\Events\Two-Column.cshtml" />
     <Content Include="Views\TAC\Events\One-Column.cshtml" />
     <Content Include="Views\TAC\Events\HomeContent.cshtml" />
+    <Content Include="Views\TAC\Events\FeatureRow.cshtml" />
+    <Content Include="Views\TAC\Events\FeaturedEvent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
