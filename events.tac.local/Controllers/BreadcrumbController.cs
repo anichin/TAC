@@ -17,7 +17,7 @@ namespace events.tac.local.Controllers
         // GET: Breadcrumb
         public ActionResult Index()
         {
-            return View();
+            return View(CreateModel());
         }
 
         public IEnumerable<NavigationItem> CreateModel()
