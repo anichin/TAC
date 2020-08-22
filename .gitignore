@@ -5,3 +5,4 @@ packages
 /tac.utils/bin
 /tac.utils/*.user
 /tac.utils/obj
+/.vs
