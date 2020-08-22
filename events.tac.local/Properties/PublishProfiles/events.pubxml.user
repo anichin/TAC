@@ -10,10 +10,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/events.tac.local.dll">
-      <publishTime>08/22/2020 12:25:15</publishTime>
+      <publishTime>08/22/2020 12:37:58</publishTime>
     </File>
     <File Include="bin/events.tac.local.pdb">
-      <publishTime>08/22/2020 12:25:15</publishTime>
+      <publishTime>08/22/2020 12:37:58</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 18:38:22</publishTime>

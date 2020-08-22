@@ -16,7 +16,9 @@ namespace events.tac.local.Controllers
         public ActionResult Index()
         {
             var model = new OverviewList();
-            var children = RenderingContext.Current.ContextItem.GetChildren();
+            var children = RenderingContext.Current.ContextItem
+                .GetChildren(Sitecore.Collections.ChildListOptions.SkipSorting)
+                .OrderBy(i => i.Created);
             model.AddRange(children.Select(i => new OverviewItem() { 
                 URL = LinkManager.GetItemUrl(i),
                 ContentHeading = new HtmlString(FieldRenderer.Render(i,"contentheading")),
