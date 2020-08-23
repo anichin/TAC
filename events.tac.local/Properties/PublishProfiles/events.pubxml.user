@@ -9,11 +9,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>http://tac.corporate/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="Areas/Importer/Views/Events/Index.cshtml">
+      <publishTime>08/22/2020 19:09:04</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Shared/Layout.cshtml">
+      <publishTime>08/22/2020 19:06:13</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/web.config">
+      <publishTime>08/22/2020 19:04:00</publishTime>
+    </File>
     <File Include="bin/events.tac.local.dll">
-      <publishTime>08/22/2020 18:43:40</publishTime>
+      <publishTime>08/22/2020 19:28:08</publishTime>
     </File>
     <File Include="bin/events.tac.local.pdb">
-      <publishTime>08/22/2020 18:43:40</publishTime>
+      <publishTime>08/22/2020 19:28:08</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 18:38:22</publishTime>
@@ -178,10 +187,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2018 16:20:56</publishTime>
     </File>
     <File Include="bin/TAC.Utils.dll">
-      <publishTime>08/22/2020 18:43:40</publishTime>
+      <publishTime>08/22/2020 19:03:25</publishTime>
     </File>
     <File Include="bin/TAC.Utils.pdb">
-      <publishTime>08/22/2020 18:43:40</publishTime>
+      <publishTime>08/22/2020 19:03:25</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>01/25/2019 22:41:50</publishTime>
@@ -580,7 +589,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/25/2019 22:33:40</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/22/2020 11:53:55</publishTime>
+      <publishTime>08/22/2020 19:07:04</publishTime>
     </File>
   </ItemGroup>
 </Project>
