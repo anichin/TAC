@@ -187,6 +187,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\commentsForm.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Areas\Importer\Views\web.config" />
     <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
