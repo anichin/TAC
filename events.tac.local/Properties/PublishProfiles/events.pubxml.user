@@ -28,10 +28,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/22/2020 19:04:00</publishTime>
     </File>
     <File Include="bin/events.tac.local.dll">
-      <publishTime>09/04/2020 17:52:37</publishTime>
+      <publishTime>09/06/2020 14:05:54</publishTime>
     </File>
     <File Include="bin/events.tac.local.pdb">
-      <publishTime>09/04/2020 17:52:37</publishTime>
+      <publishTime>09/06/2020 14:05:54</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 18:38:22</publishTime>
@@ -557,6 +557,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/EventIntro/Index.cshtml">
       <publishTime>08/09/2020 18:02:23</publishTime>
+    </File>
+    <File Include="Views/EventsList/Index.cshtml">
+      <publishTime>09/06/2020 14:05:14</publishTime>
     </File>
     <File Include="Views/Overview/Index.cshtml">
       <publishTime>08/22/2020 12:18:55</publishTime>
