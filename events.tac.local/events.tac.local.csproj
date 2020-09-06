@@ -79,6 +79,9 @@
       <HintPath>..\Libraries\Sitecore.ContentSearch.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.ContentSearch.SolrProvider">
+      <HintPath>..\..\Student Resources\Lib\Sitecore.ContentSearch.SolrProvider.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\Libraries\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
@@ -144,6 +147,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\TAC\Events\Solr.Events.Master.Index.config" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -192,6 +196,8 @@
     <Content Include="Areas\Importer\Views\web.config" />
     <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
     <Content Include="Areas\Importer\Views\Events\Index.cshtml" />
+    <Content Include="App_Config\Include\TAC\Events\Events.DefaultIndexConfiguration.config" />
+    <None Include="App_Config\Include\TAC\Events\Solr.Events.Web.Index.config" />
     <None Include="Properties\PublishProfiles\events.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="packages.config" />
@@ -291,7 +297,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\TAC\Events\" />
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Importer\Data\" />
   </ItemGroup>
