@@ -1,5 +1,6 @@
 ﻿using events.tac.local.Areas.Importer.Models;
 using Newtonsoft.Json;
+using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.SecurityModel;
@@ -49,6 +50,9 @@ namespace events.tac.local.Areas.Importer.Controllers
                             item["StartDate"] = Sitecore.DateUtil.ToIsoDate(ev.StartDate);
                             item["Duration"] = ev.Duration.ToString();
                             item["Difficulty"] = ev.Difficulty.ToString();
+
+                            item[FieldIDs.Workflow] = "{FCB15A5D-59C5-48A4-8016-6AC593BE40A6}";
+                            item[FieldIDs.WorkflowState] = "{AD8C8540-F021-44A1-A02C-4824C2AD06D7}";
                             item.Editing.EndEdit();
                         }
                     }

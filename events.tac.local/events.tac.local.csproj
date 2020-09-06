@@ -201,6 +201,7 @@
     <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
     <Content Include="Areas\Importer\Views\Events\Index.cshtml" />
     <Content Include="App_Config\Include\TAC\Events\Events.DefaultIndexConfiguration.config" />
+    <Content Include="App_Config\Include\TAC\Events\Events.Services.Client.config" />
     <None Include="App_Config\Include\TAC\Events\Solr.Events.Web.Index.config" />
     <None Include="Properties\PublishProfiles\events.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
