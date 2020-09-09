@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "events.tac.local", "events.tac.local\events.tac.local.csproj", "{12A3DA50-2BC9-48FF-8A04-F0EAC4A38397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tac.utils", "tac.utils\tac.utils.csproj", "{1C59F3AA-127D-4D46-92A9-8EB82692B76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.UnitTests", "Events.UnitTests\Events.UnitTests.csproj", "{C4C4CC02-234E-4618-9091-B43744D77831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C59F3AA-127D-4D46-92A9-8EB82692B76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C59F3AA-127D-4D46-92A9-8EB82692B76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C59F3AA-127D-4D46-92A9-8EB82692B76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C4CC02-234E-4618-9091-B43744D77831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C4CC02-234E-4618-9091-B43744D77831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C4CC02-234E-4618-9091-B43744D77831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C4CC02-234E-4618-9091-B43744D77831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

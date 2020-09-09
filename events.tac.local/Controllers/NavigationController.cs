@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using events.tac.local.Business.Navigation;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Presentation;
+using TAC.Utils.SitecoreModels;
 
 namespace events.tac.local.Controllers
 {
@@ -22,7 +23,7 @@ namespace events.tac.local.Controllers
             Item currentItem = _renderingContext.ContextItem;
             Item section = currentItem.Axes.GetAncestors()
                 .FirstOrDefault(i => i.TemplateName == "Event Section");
-            var model = _modelBuilder.CreateNavigationMenu(section, currentItem);
+            var model = _modelBuilder.CreateNavigationMenu(new SitecoreItem(section), new SitecoreItem(currentItem));
 
             return View();
         }
