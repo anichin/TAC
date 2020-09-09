@@ -135,10 +135,13 @@
     <Compile Include="Areas\Importer\ImporterAreaRegistration.cs" />
     <Compile Include="Areas\Importer\Models\Event.cs" />
     <Compile Include="Business\EventsProvider.cs" />
+    <Compile Include="Business\Navigation\NavigationModelBuilder.cs" />
+    <Compile Include="Business\ServicesConfigurator.cs" />
     <Compile Include="Controllers\BreadcrumbController.cs" />
     <Compile Include="Controllers\CommentsFormController.cs" />
     <Compile Include="Controllers\EventIntroController.cs" />
     <Compile Include="Controllers\EventsListController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Controllers\OverviewController.cs" />
     <Compile Include="Controllers\RelatedEventsController.cs" />
     <Compile Include="Controllers\SubscribeFormController.cs" />
@@ -146,6 +149,7 @@
     <Compile Include="Models\EventIntro.cs" />
     <Compile Include="Models\EventsList.cs" />
     <Compile Include="Models\NavigationItem.cs" />
+    <Compile Include="Models\NavigationMenu.cs" />
     <Compile Include="Models\OverviewItem.cs" />
     <Compile Include="Models\OverviewList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -202,6 +206,7 @@
     <Content Include="Areas\Importer\Views\Events\Index.cshtml" />
     <Content Include="App_Config\Include\TAC\Events\Events.DefaultIndexConfiguration.config" />
     <Content Include="App_Config\Include\TAC\Events\Events.Services.Client.config" />
+    <Content Include="App_Config\Include\TAC\Events\Events.DI.config" />
     <None Include="App_Config\Include\TAC\Events\Solr.Events.Web.Index.config" />
     <None Include="Properties\PublishProfiles\events.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -295,6 +300,7 @@
     <Content Include="Views\CommentsForm\Index.cshtml" />
     <Content Include="Views\CommentsForm\Confirmation.cshtml" />
     <Content Include="Views\EventsList\Index.cshtml" />
+    <Content Include="Views\Navigation\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
