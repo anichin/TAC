@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {CB4CBC48-126A-429D-8535-79BF90953802}
+database: master
+path: /sitecore/content/Events/Home/Events/Climbing/Nature Climb in the Adirondacs
+parent: {A023756C-6E5F-44E1-8AD9-78F64E75E896}
+name: Nature Climb in the Adirondacs
+master: {00000000-0000-0000-0000-000000000000}
+template: {04FAF783-9B3E-4A1A-897E-D3F1E3B85BA8}
+templatekey: Event Details
+created: 20200801T053122Z
+
+----version----
+language: en
+version: 1
+revision: 5c0f4735-9fbd-4eba-a04e-1fc3dc95601e
+
+----field----
+field: {1384A77F-8E0C-40BA-B628-3C5ED330DD86}
+name: ContentHeading
+key: contentheading
+content-length: 34
+
+Nature Climb in the Adirondacs 123
+----field----
+field: {9FCD2C2A-6569-42AB-AC8D-A734000A8B3C}
+name: EventImage
+key: eventimage
+content-length: 145
+
+<image mediaid="{6ABD03B3-BECF-44F0-962A-25633E4CD782}" alt="Climbing the face of the half dome" height="" width="" hspace="" vspace="" ></image>
+----field----
+field: {F35DACEC-61A9-49C5-90BD-05E58F0C7727}
+name: MetaTitle
+key: metatitle
+content-length: 30
+
+Nature Climb in the Adirondacs
+----field----
+field: {15FDA9B9-5078-42AE-9E93-B994D2E71C79}
+name: StartDate
+key: startdate
+content-length: 16
+
+20200801T000000Z
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 311
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{CD3D76A7-F563-40B2-9EF3-481E67D51994}" p:before="*" s:id="{0FFB4D6F-1AC7-48D1-8E40-B24CF3C5AC38}" s:ph="main" /><r uid="{2AFFF69B-0F89-46A0-A070-ED15ABA46907}"><p:d /></r></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200801T053122Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c0f4735-9fbd-4eba-a04e-1fc3dc95601e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200823T163217Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

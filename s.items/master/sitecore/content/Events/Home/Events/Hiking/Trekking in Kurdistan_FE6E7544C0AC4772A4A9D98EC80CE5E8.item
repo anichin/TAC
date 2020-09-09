@@ -1,0 +1,129 @@
+----item----
+version: 1
+id: {FE6E7544-C0AC-4772-A4A9-D98EC80CE5E8}
+database: master
+path: /sitecore/content/Events/Home/Events/Hiking/Trekking in Kurdistan
+parent: {80914512-C3A8-498C-A3EE-C75E40814F0B}
+name: Trekking in Kurdistan
+master: {00000000-0000-0000-0000-000000000000}
+template: {04FAF783-9B3E-4A1A-897E-D3F1E3B85BA8}
+templatekey: Event Details
+created: 20200906T232248Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FCB15A5D-59C5-48A4-8016-6AC593BE40A6}
+----version----
+language: en
+version: 1
+revision: 5a98aba1-87b5-4ae7-9378-8ca08a433b4a
+
+----field----
+field: {1384A77F-8E0C-40BA-B628-3C5ED330DD86}
+name: ContentHeading
+key: contentheading
+content-length: 21
+
+Trekking in Kurdistan
+----field----
+field: {AE97D6D0-6BC0-4395-B623-4DBD705C3C18}
+name: ContentIntro
+key: contentintro
+content-length: 99
+
+Get a different view of Iraq. Explore the Zagros Mountains including its highest peak Mount Halgurd
+----field----
+field: {F88D6D6D-04AD-4698-BCC2-3E28BF17C15C}
+name: Highlights
+key: highlights
+content-length: 28
+
+Explore the Zagros Mountains
+----field----
+field: {F35DACEC-61A9-49C5-90BD-05E58F0C7727}
+name: MetaTitle
+key: metatitle
+content-length: 21
+
+Trekking in Kurdistan
+----field----
+field: {15FDA9B9-5078-42AE-9E93-B994D2E71C79}
+name: StartDate
+key: startdate
+content-length: 15
+
+20170903T000000
+----field----
+field: {A716673F-B0C3-49F0-8BFD-D859328D41DC}
+name: Duration
+key: duration
+content-length: 1
+
+5
+----field----
+field: {7E1A2E20-D563-4D1F-B989-4E7A9FD26097}
+name: Difficulty
+key: difficulty
+content-length: 1
+
+4
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200906T232248Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5a98aba1-87b5-4ae7-9378-8ca08a433b4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200906T234007Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 24
+
+sitecore\TestEventEditor
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{9F37DFD6-D0A5-423A-8A76-AA7AB414F3AC}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

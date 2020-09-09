@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {80914512-C3A8-498C-A3EE-C75E40814F0B}
+database: master
+path: /sitecore/content/Events/Home/Events/Hiking
+parent: {4D34AD90-1832-4EE7-87A6-B50BEA34D114}
+name: Hiking
+master: {00000000-0000-0000-0000-000000000000}
+template: {65B95F58-8E97-4B06-A830-193DD145DCE8}
+templatekey: Event List
+created: 20200801T052907Z
+
+----field----
+field: {D312103C-B36C-4CA5-864A-C85F9ABDA503}
+name: __Is Bucket
+key: __is bucket
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 7584db26-e2b7-42c9-86b8-6dd57c0379ec
+
+----field----
+field: {1384A77F-8E0C-40BA-B628-3C5ED330DD86}
+name: ContentHeading
+key: contentheading
+content-length: 6
+
+Hiking
+----field----
+field: {316D090C-0128-4C15-AE3E-0B7AC6423197}
+name: DecorationBanner
+key: decorationbanner
+content-length: 58
+
+<image mediaid="{5D50AC23-13C0-4E97-8E4C-BED262C61F87}" />
+----field----
+field: {F35DACEC-61A9-49C5-90BD-05E58F0C7727}
+name: MetaTitle
+key: metatitle
+content-length: 6
+
+Hiking
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200801T052907Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7584db26-e2b7-42c9-86b8-6dd57c0379ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200906T214818Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -15,6 +15,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/TAC/Events/Events.DI.config">
       <publishTime>09/08/2020 19:32:44</publishTime>
     </File>
+    <File Include="App_Config/Include/TAC/Events/Events.Serialization.config">
+      <publishTime>09/08/2020 20:08:15</publishTime>
+    </File>
     <File Include="App_Config/Include/TAC/Events/Events.Services.Client.config">
       <publishTime>09/06/2020 15:50:26</publishTime>
     </File>
